@@ -28,7 +28,8 @@ git clone https://github.com/VU-Kevin-coder/soccer.git
 2. Move the project to your local server's public folder (like htdocs for XAMPP)
 
 3. Start your server and open localhost/soccer in your browser.
-4. / (root)
+### File structure
+/ (root)
 |-- index.php
 |-- contact.php
 |-- single-blog.php
@@ -43,7 +44,7 @@ git clone https://github.com/VU-Kevin-coder/soccer.git
 |   |-- header.php
 |   |-- footer.php
 |-- /images
-✨ Features
+### ✨ Features
 Home page with latest news
 
 Team players page
@@ -56,7 +57,7 @@ contact us page withan embeded map
 
 Responsive design (mobile-friendly)
 
-🛣️ Roadmap
+### 🛣️ Roadmap
  Static frontend pages
 
  Integrate database (MySQL) for dynamic content
