@@ -1,0 +1,12 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Only rewrite if the request is NOT a real file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite URLs to corresponding .php files
+RewriteRule ^(.+)$ $1.php [L]
+
+# Rewrite article URLs from /news/article-title to /news.php?slug=article-title
+RewriteRule ^article/([^/]+)/?$ article?slug=$1 [L,QSA]
